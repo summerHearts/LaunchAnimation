@@ -1,0 +1,20 @@
+//
+//  Animation-Prefix.pch
+//  Animation
+//
+//  Created by Kenvin on 15/6/14.
+//  Copyright © 2017年 上海乐住信息技术有限公司. All rights reserved.
+//
+
+#ifndef Animation_Prefix_pch
+#define Animation_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define IPHONE_SCREEN_WIDTH         ([[UIScreen mainScreen] bounds].size.width)
+#define IPHONE_SCREEN_HEIGHT        ([[UIScreen mainScreen] bounds].size.height)
+#define kScreenHeight               [UIScreen mainScreen].bounds.size.height
+#define kScreenWidth                [UIScreen mainScreen].bounds.size.width
+
+#endif /* Animation_Prefix_pch */

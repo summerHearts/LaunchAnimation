@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View2">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_bg2" translatesAutoresizingMaskIntoConstraints="NO" id="5PR-Lw-8ox">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5PR-Lw-8ox" secondAttribute="height" multiplier="40:71" id="afw-D5-yg6"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_pickerhotel" translatesAutoresizingMaskIntoConstraints="NO" id="UEQ-ff-ZMg">
+                    <rect key="frame" x="52" y="455" width="216" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="UEQ-ff-ZMg" secondAttribute="height" multiplier="108:31" id="YaN-T3-fCB"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_house" translatesAutoresizingMaskIntoConstraints="NO" id="CPn-NM-BLq">
+                    <rect key="frame" x="37" y="148" width="246" height="271"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CPn-NM-BLq" secondAttribute="height" multiplier="246:271" id="oIo-s8-nRI"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_cloud" translatesAutoresizingMaskIntoConstraints="NO" id="sJH-kb-45T">
+                    <rect key="frame" x="37" y="148" width="27" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="sJH-kb-45T" secondAttribute="height" multiplier="9:4" id="X0l-OP-GpL"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_cloud1" translatesAutoresizingMaskIntoConstraints="NO" id="qPR-Pb-olP">
+                    <rect key="frame" x="222" y="163" width="46" height="19"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_cloud" translatesAutoresizingMaskIntoConstraints="NO" id="hZm-vl-B8n">
+                    <rect key="frame" x="37" y="278" width="27" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="hZm-vl-B8n" secondAttribute="height" multiplier="9:4" id="wyT-Y8-5ka"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_cloud2.png" translatesAutoresizingMaskIntoConstraints="NO" id="yez-vT-hR2">
+                    <rect key="frame" x="-1048" y="229" width="1325" height="568"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="yez-vT-hR2" secondAttribute="height" multiplier="7:3" id="slN-VB-cVC"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yez-vT-hR2" firstAttribute="trailing" secondItem="CPn-NM-BLq" secondAttribute="trailing" constant="-6" id="544-bS-DNG"/>
+                <constraint firstItem="hZm-vl-B8n" firstAttribute="bottom" secondItem="CPn-NM-BLq" secondAttribute="bottom" constant="-129" id="B1P-eF-6JR"/>
+                <constraint firstItem="CPn-NM-BLq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="37" id="MBB-Mk-GdJ"/>
+                <constraint firstItem="UEQ-ff-ZMg" firstAttribute="top" secondItem="CPn-NM-BLq" secondAttribute="bottom" constant="36" id="Mon-tB-2G5"/>
+                <constraint firstItem="yez-vT-hR2" firstAttribute="top" secondItem="CPn-NM-BLq" secondAttribute="top" constant="81" id="Pgt-xF-b96"/>
+                <constraint firstItem="qPR-Pb-olP" firstAttribute="top" secondItem="CPn-NM-BLq" secondAttribute="top" constant="15" id="Q9g-Z8-Goa"/>
+                <constraint firstItem="sJH-kb-45T" firstAttribute="top" secondItem="CPn-NM-BLq" secondAttribute="top" id="Tdw-Oo-heC"/>
+                <constraint firstItem="5PR-Lw-8ox" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YFo-tg-Gnx"/>
+                <constraint firstItem="hZm-vl-B8n" firstAttribute="leading" secondItem="CPn-NM-BLq" secondAttribute="leading" id="b4l-4t-JO3"/>
+                <constraint firstItem="UEQ-ff-ZMg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="52" id="gXZ-iC-UOy"/>
+                <constraint firstItem="5PR-Lw-8ox" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hL9-Pj-8Et"/>
+                <constraint firstAttribute="trailing" secondItem="5PR-Lw-8ox" secondAttribute="trailing" id="jWB-md-IqL"/>
+                <constraint firstAttribute="bottom" secondItem="5PR-Lw-8ox" secondAttribute="bottom" id="oaM-NV-3Z2"/>
+                <constraint firstItem="qPR-Pb-olP" firstAttribute="trailing" secondItem="CPn-NM-BLq" secondAttribute="trailing" constant="-15" id="pfa-Qu-QYh"/>
+                <constraint firstAttribute="bottom" secondItem="UEQ-ff-ZMg" secondAttribute="bottom" constant="51" id="qk8-B1-pSI"/>
+                <constraint firstAttribute="trailing" secondItem="UEQ-ff-ZMg" secondAttribute="trailing" constant="52" id="uL8-XR-Qog"/>
+                <constraint firstAttribute="trailing" secondItem="CPn-NM-BLq" secondAttribute="trailing" constant="37" id="wwr-fl-o0L"/>
+                <constraint firstItem="sJH-kb-45T" firstAttribute="leading" secondItem="CPn-NM-BLq" secondAttribute="leading" id="y1R-vO-fKT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cloud1" destination="sJH-kb-45T" id="5tW-j6-38W"/>
+                <outlet property="cloud2" destination="qPR-Pb-olP" id="Eax-pv-WUa"/>
+                <outlet property="cloud3" destination="yez-vT-hR2" id="CnM-o4-MGq"/>
+                <outlet property="cloud4" destination="hZm-vl-B8n" id="CoQ-3m-0VM"/>
+                <outlet property="houseImg" destination="CPn-NM-BLq" id="0Hd-Oj-Ckq"/>
+                <outlet property="titleImg" destination="UEQ-ff-ZMg" id="d0f-j8-7RR"/>
+            </connections>
+            <point key="canvasLocation" x="231" y="325"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch_bg2" width="320" height="568"/>
+        <image name="launch_cloud" width="27" height="11"/>
+        <image name="launch_cloud1" width="46" height="19"/>
+        <image name="launch_cloud2.png" width="320" height="568"/>
+        <image name="launch_house" width="246" height="270"/>
+        <image name="launch_pickerhotel" width="217" height="62"/>
+    </resources>
+</document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_page2_bg" translatesAutoresizingMaskIntoConstraints="NO" id="ptD-L8-wE4">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_cheap.png" translatesAutoresizingMaskIntoConstraints="NO" id="mMs-eX-3qC">
+                    <rect key="frame" x="52" y="455" width="216" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="mMs-eX-3qC" secondAttribute="height" multiplier="108:31" id="tJ6-Zr-9LO"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_page1_floor" translatesAutoresizingMaskIntoConstraints="NO" id="caH-sd-gYX">
+                    <rect key="frame" x="0.0" y="200" width="251" height="167"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="caH-sd-gYX" secondAttribute="height" multiplier="251:167" id="IAH-TU-zkA"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_people.png" translatesAutoresizingMaskIntoConstraints="NO" id="GuB-ic-3mj">
+                    <rect key="frame" x="-36" y="-165" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_phone" translatesAutoresizingMaskIntoConstraints="NO" id="ePH-Nr-AUe">
+                    <rect key="frame" x="-44" y="-92" width="228" height="372"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ptD-L8-wE4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4Zv-rc-Be4"/>
+                <constraint firstItem="caH-sd-gYX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CJR-yg-aI0"/>
+                <constraint firstItem="mMs-eX-3qC" firstAttribute="top" secondItem="GuB-ic-3mj" secondAttribute="bottom" constant="52" id="LgQ-ts-M1G"/>
+                <constraint firstAttribute="trailing" secondItem="mMs-eX-3qC" secondAttribute="trailing" constant="52" id="OH2-7a-SnD"/>
+                <constraint firstAttribute="bottom" secondItem="mMs-eX-3qC" secondAttribute="bottom" constant="51" id="Pgk-Nh-5V6"/>
+                <constraint firstItem="ePH-Nr-AUe" firstAttribute="trailing" secondItem="GuB-ic-3mj" secondAttribute="trailing" constant="-100" id="Vch-Gc-Wbu"/>
+                <constraint firstAttribute="trailing" secondItem="ptD-L8-wE4" secondAttribute="trailing" id="XXx-ud-Nj7"/>
+                <constraint firstAttribute="trailing" secondItem="GuB-ic-3mj" secondAttribute="trailing" constant="36" id="bd8-4E-puZ"/>
+                <constraint firstItem="mMs-eX-3qC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="52" id="cjW-Ud-gjo"/>
+                <constraint firstItem="mMs-eX-3qC" firstAttribute="top" secondItem="caH-sd-gYX" secondAttribute="bottom" constant="88" id="lNK-My-Qcf"/>
+                <constraint firstItem="ePH-Nr-AUe" firstAttribute="bottom" secondItem="GuB-ic-3mj" secondAttribute="bottom" constant="-123" id="ly9-WB-ZDv"/>
+                <constraint firstAttribute="bottom" secondItem="ptD-L8-wE4" secondAttribute="bottom" id="rbn-1I-ulJ"/>
+                <constraint firstAttribute="trailing" secondItem="caH-sd-gYX" secondAttribute="trailing" constant="69" id="s5e-tC-3t5"/>
+                <constraint firstItem="ePH-Nr-AUe" firstAttribute="top" secondItem="GuB-ic-3mj" secondAttribute="top" constant="73" id="tR9-bp-XVP"/>
+                <constraint firstItem="ePH-Nr-AUe" firstAttribute="leading" secondItem="GuB-ic-3mj" secondAttribute="leading" constant="-8" id="vFy-3g-ma4"/>
+                <constraint firstItem="ptD-L8-wE4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yFf-vO-JUk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="houseImg" destination="caH-sd-gYX" id="rxT-rD-owc"/>
+                <outlet property="manImg" destination="GuB-ic-3mj" id="4SM-zW-HC3"/>
+                <outlet property="phoneImg" destination="ePH-Nr-AUe" id="t9G-Ac-cN6"/>
+                <outlet property="titleImg" destination="mMs-eX-3qC" id="Pdq-8p-Z45"/>
+            </connections>
+            <point key="canvasLocation" x="173" y="275"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launch_cheap.png" width="320" height="568"/>
+        <image name="launch_page1_floor" width="251" height="167"/>
+        <image name="launch_page2_bg" width="320" height="568"/>
+        <image name="launch_people.png" width="320" height="568"/>
+        <image name="launch_phone" width="47" height="53"/>
+    </resources>
+</document>

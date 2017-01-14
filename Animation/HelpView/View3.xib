@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View3">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_redbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wc6-o8-3bj">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_read" translatesAutoresizingMaskIntoConstraints="NO" id="kdk-Wf-EHd">
+                    <rect key="frame" x="52" y="455" width="216" height="62"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kdk-Wf-EHd" secondAttribute="height" multiplier="108:31" id="ecd-wu-FSK"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="03men.png" translatesAutoresizingMaskIntoConstraints="NO" id="MWn-dS-t6I">
+                    <rect key="frame" x="52" y="119" width="100" height="234"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="MWn-dS-t6I" secondAttribute="height" multiplier="50:117" id="de7-q2-dub"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_door" translatesAutoresizingMaskIntoConstraints="NO" id="4RF-16-HCF">
+                    <rect key="frame" x="138" y="154" width="163" height="240"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4RF-16-HCF" secondAttribute="height" multiplier="163:240" id="U4R-hz-ege"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_star" translatesAutoresizingMaskIntoConstraints="NO" id="c6l-OP-3kd">
+                    <rect key="frame" x="120" y="214" width="27" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="c6l-OP-3kd" secondAttribute="height" multiplier="9:11" id="jdz-Gc-i5f"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kdk-Wf-EHd" secondAttribute="trailing" constant="52" id="02T-aG-lhx"/>
+                <constraint firstItem="4RF-16-HCF" firstAttribute="width" secondItem="c6l-OP-3kd" secondAttribute="height" multiplier="163:33" id="20g-MU-1Vu"/>
+                <constraint firstItem="4RF-16-HCF" firstAttribute="leading" secondItem="kdk-Wf-EHd" secondAttribute="leading" constant="86" id="4kS-di-sfJ"/>
+                <constraint firstAttribute="trailing" secondItem="Wc6-o8-3bj" secondAttribute="trailing" id="Naw-8s-j8h"/>
+                <constraint firstItem="4RF-16-HCF" firstAttribute="leading" secondItem="c6l-OP-3kd" secondAttribute="leading" constant="18" id="X0I-d9-YzE"/>
+                <constraint firstItem="kdk-Wf-EHd" firstAttribute="bottom" secondItem="MWn-dS-t6I" secondAttribute="bottom" constant="164" id="XGX-4X-69A"/>
+                <constraint firstItem="4RF-16-HCF" firstAttribute="trailing" secondItem="kdk-Wf-EHd" secondAttribute="trailing" constant="33" id="XrN-54-DQP"/>
+                <constraint firstItem="4RF-16-HCF" firstAttribute="top" secondItem="c6l-OP-3kd" secondAttribute="top" constant="-60" id="Ys8-A6-Heo"/>
+                <constraint firstItem="Wc6-o8-3bj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fBb-1U-hiE"/>
+                <constraint firstItem="4RF-16-HCF" firstAttribute="bottom" secondItem="kdk-Wf-EHd" secondAttribute="bottom" constant="-123" id="fT5-fV-yWI"/>
+                <constraint firstItem="kdk-Wf-EHd" firstAttribute="trailing" secondItem="MWn-dS-t6I" secondAttribute="trailing" constant="116" id="gBC-Ch-v6w"/>
+                <constraint firstAttribute="bottom" secondItem="Wc6-o8-3bj" secondAttribute="bottom" id="gx1-Cd-Yga"/>
+                <constraint firstAttribute="bottom" secondItem="kdk-Wf-EHd" secondAttribute="bottom" constant="51" id="jHi-me-mkd"/>
+                <constraint firstItem="kdk-Wf-EHd" firstAttribute="leading" secondItem="MWn-dS-t6I" secondAttribute="leading" id="n1u-d5-NMA"/>
+                <constraint firstItem="kdk-Wf-EHd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="52" id="oAe-qB-AIv"/>
+                <constraint firstItem="Wc6-o8-3bj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sBO-Eo-ZaI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="gateImg" destination="MWn-dS-t6I" id="lHb-Pz-xmp"/>
+                <outlet property="manImg" destination="4RF-16-HCF" id="Qyb-8Q-oae"/>
+                <outlet property="starImg" destination="c6l-OP-3kd" id="UVZ-Vi-mTU"/>
+                <outlet property="titleImg" destination="kdk-Wf-EHd" id="8e5-V3-vzz"/>
+            </connections>
+            <point key="canvasLocation" x="426" y="358"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="03men.png" width="89" height="212"/>
+        <image name="launch_door" width="89" height="212"/>
+        <image name="launch_read" width="216" height="62"/>
+        <image name="launch_redbg.png" width="320" height="568"/>
+        <image name="launch_star" width="22" height="26"/>
+    </resources>
+</document>

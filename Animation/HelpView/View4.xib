@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="View4">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_sleep.png" translatesAutoresizingMaskIntoConstraints="NO" id="tIh-lV-76u">
+                    <rect key="frame" x="0.0" y="1" width="375" height="666"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="tIh-lV-76u" secondAttribute="height" multiplier="40:71" id="43V-49-QlO"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_eyes_closed.png" translatesAutoresizingMaskIntoConstraints="NO" id="CxC-UA-XM2">
+                    <rect key="frame" x="164" y="427" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="E1A-Wn-O3l"/>
+                        <constraint firstAttribute="height" constant="25" id="QJA-aM-qop"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_coupon.png" translatesAutoresizingMaskIntoConstraints="NO" id="bpa-2y-57U">
+                    <rect key="frame" x="94" y="597" width="201" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="bpa-2y-57U" secondAttribute="height" multiplier="146:13" id="p0S-Cm-eTs"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbI-Ke-FsS">
+                    <rect key="frame" x="83" y="502" width="228" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="AbI-Ke-FsS" secondAttribute="height" multiplier="173:39" id="VoX-5M-6Ti"/>
+                    </constraints>
+                    <state key="normal" image="launch_happy.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="starBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="1Zy-DN-e6D"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04eye.png" translatesAutoresizingMaskIntoConstraints="NO" id="JP1-ws-7wa">
+                    <rect key="frame" x="164" y="427" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="6Uo-iy-kzp"/>
+                        <constraint firstAttribute="width" constant="25" id="u2T-3k-GVx"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bpa-2y-57U" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="94" id="3Sj-ja-fHw"/>
+                <constraint firstAttribute="bottom" secondItem="CxC-UA-XM2" secondAttribute="bottom" constant="215" id="4YR-jk-MSq"/>
+                <constraint firstAttribute="trailing" secondItem="AbI-Ke-FsS" secondAttribute="trailing" constant="64" id="9ak-AN-09b"/>
+                <constraint firstItem="bpa-2y-57U" firstAttribute="top" secondItem="AbI-Ke-FsS" secondAttribute="bottom" constant="44" id="EMf-8c-7wQ"/>
+                <constraint firstAttribute="trailing" secondItem="bpa-2y-57U" secondAttribute="trailing" constant="80" id="GL7-95-60x"/>
+                <constraint firstAttribute="trailing" secondItem="tIh-lV-76u" secondAttribute="trailing" id="LPf-Xf-AyL"/>
+                <constraint firstItem="AbI-Ke-FsS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="83" id="Nag-y5-pfh"/>
+                <constraint firstAttribute="centerX" secondItem="CxC-UA-XM2" secondAttribute="centerX" constant="11" id="R4Q-cG-2t6"/>
+                <constraint firstAttribute="centerX" secondItem="JP1-ws-7wa" secondAttribute="centerX" constant="11" id="TjY-hK-Jvf"/>
+                <constraint firstAttribute="bottom" secondItem="JP1-ws-7wa" secondAttribute="bottom" constant="215" id="UCt-by-RiO"/>
+                <constraint firstAttribute="bottom" secondItem="tIh-lV-76u" secondAttribute="bottom" id="haQ-Vh-jp8"/>
+                <constraint firstAttribute="bottom" secondItem="bpa-2y-57U" secondAttribute="bottom" constant="52" id="k3U-Rv-tdb"/>
+                <constraint firstItem="tIh-lV-76u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wzC-JI-i4K"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="StarButton" destination="AbI-Ke-FsS" id="8mi-Kn-gO8"/>
+                <outlet property="bgImg" destination="tIh-lV-76u" id="TZD-Ce-f20"/>
+                <outlet property="bottomConstraint1" destination="UCt-by-RiO" id="DDO-iL-iZU"/>
+                <outlet property="bottomConstraint2" destination="4YR-jk-MSq" id="cAM-RX-XTY"/>
+                <outlet property="closeeye" destination="JP1-ws-7wa" id="bPl-5A-sgC"/>
+                <outlet property="eyeImg" destination="CxC-UA-XM2" id="J2u-sQ-caM"/>
+            </connections>
+            <point key="canvasLocation" x="264" y="280"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="04eye.png" width="22" height="24"/>
+        <image name="launch_coupon.png" width="320" height="568"/>
+        <image name="launch_eyes_closed.png" width="320" height="568"/>
+        <image name="launch_happy.png" width="320" height="568"/>
+        <image name="launch_sleep.png" width="320" height="568"/>
+    </resources>
+</document>
